@@ -1,3 +1,6 @@
+<div align="center">
+
+```
  ██████╗  █████╗ ██████╗ ██╗  ██╗███████╗ █████╗ ████████╗██╗  ██╗██╗    ██╗     ██╗
  ██╔══██╗██╔══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗╚══██╔══╝██║  ██║██║    ██║     ██║
  ██║  ██║███████║██████╔╝█████╔╝ ███████╗███████║   ██║   ███████║██║    ██║     ██║
@@ -16,6 +19,7 @@
 [![Niveaux](https://img.shields.io/badge/Niveaux-Première%20%26%20Terminale-6d28d9?style=flat-square&labelColor=0d1117)](https://eduscol.education.fr)
 [![Profil](https://img.shields.io/badge/GitHub-darksathili--jpg-181717?style=flat-square&logo=github&labelColor=0d1117)](https://github.com/darksathili-jpg)
 
+</div>
 
 ---
 
@@ -116,6 +120,9 @@ Toutes les ressources respectent les mêmes contraintes :
 
 ---
 
+<div align="center">
 
 *Ressources produites pour les élèves de Première et Terminale NSI*
 *Lycée Antoine Watteau · Valenciennes · Académie de Lille*
+
+</div>
