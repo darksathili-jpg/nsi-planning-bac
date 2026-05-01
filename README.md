@@ -9,7 +9,7 @@
  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝    ╚══════╝╚═╝
 ```
 
-### Halitane · DarkSATHI Li
+### DarkSATHI Li
 
 **Enseignant NSI — Lycée Antoine Watteau, Valenciennes**
 
