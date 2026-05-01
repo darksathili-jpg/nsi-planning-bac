@@ -61,7 +61,13 @@
   header {
     background: var(--surface);
     border-bottom: 2px solid var(--border);
-    padding: 36px 56px 28px;
+    padding: 36px 0 28px;
+  }
+
+  .header-inner {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 40px;
   }
 
   .header-eyebrow {
@@ -95,7 +101,13 @@
   .stat-bar {
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 14px 56px;
+    padding: 14px 0;
+  }
+
+  .stat-bar-inner {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 0 40px;
     display: flex;
     align-items: center;
     gap: 32px;
@@ -111,8 +123,13 @@
   .stat-sep { width: 1px; height: 28px; background: var(--border); }
 
   /* COUNTDOWN */
+  .countdown-wrap {
+    max-width: 1060px;
+    margin: 20px auto 0;
+    padding: 0 40px;
+  }
+
   .countdown-box {
-    margin: 20px 56px 0;
     padding: 14px 20px;
     background: var(--accent-light);
     border: 1px solid #b8ccec;
@@ -137,8 +154,13 @@
   .exam-detail strong { display: block; font-size: 14px; color: var(--text); font-weight: 600; }
 
   /* LEGEND */
+  .legend-wrap {
+    max-width: 1060px;
+    margin: 12px auto 0;
+    padding: 0 40px;
+  }
+
   .legend {
-    margin: 12px 56px 0;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -427,6 +449,7 @@
 </head>
 <body>
 <header>
+<div class="header-inner">
 <div class="header-eyebrow">Lycée Antoine Watteau — Valenciennes — NSI Terminale</div>
 <h1>Planning de Révision<br/><span class="accent">BAC NSI 2026</span></h1>
 <img alt="Illustration planning de révision" src="illustration.png"/>
@@ -434,12 +457,10 @@
 <span class="pill pill-written"><a href="https://darksathili-jpg.github.io/pratique_2026/" target="_blank" rel="noopener noreferrer">Accéder aux ressources pratiques</a></span>
 <span class="pill pill-written"><a href="https://darksathili-jpg.github.io/Ant-system/" target="_blank" rel="noopener noreferrer">Projet Colonies de Fourmis moyen pour réviser en s'amusant!!</a></span>
 <span class="pill pill-written"><a href="https://darksathili-jpg.github.io/sokoban/" target="_blank" rel="noopener noreferrer">Projet SOKOBAN difficile pour réviser en s'amusant!!</a></span>
-
-</p>
+</div>
 </header>
 <div class="stat-bar">
-</header>
-<div class="stat-bar">
+<div class="stat-bar-inner">
 <div class="stat"><span class="stat-n blue">14</span><span class="stat-lbl">sessions</span></div>
 <div class="stat-sep"></div>
 <div class="stat"><span class="stat-n orange">7</span><span class="stat-lbl">séances écrites</span></div>
@@ -448,16 +469,21 @@
 <div class="stat-sep"></div>
 <div class="stat"><span class="stat-n" style="color:var(--text2);font-size:16px;font-family:var(--mono);">2 mai — 1 juin</span></div>
 </div>
+</div>
+<div class="countdown-wrap">
 <div class="countdown-box">
 <div class="jj" id="jj">--</div>
 <div class="exam-detail">
 <strong>Épreuve écrite de spécialité NSI</strong>
-    Jeudi 19 juin 2026 — 14h00  |  Épreuve pratique : semaine du 2 au 6 juin 2026
+    Jeudi 19 juin 2026 — 14h00  |  Épreuve pratique : semaine du 2 au 6 juin 2026
   </div>
 </div>
-<div class="legend" style="margin-bottom:4px;">
+</div>
+<div class="legend-wrap" style="margin-bottom:4px;">
+<div class="legend">
 <div class="legend-item"><span class="pill pill-written">Écrit</span> Exercice sur sujet écrit (3h30)</div>
 <div class="legend-item"><span class="pill pill-practical">Pratique</span> Sujet banque 2026 (1h, sans documentation)</div>
+</div>
 </div>
 <main>
 <div class="week-sep"><span class="week-txt">Semaine 1 — 2 au 4 mai</span><div class="week-rule"></div></div>
